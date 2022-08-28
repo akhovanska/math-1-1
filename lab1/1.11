@@ -1,3 +1,5 @@
+#Формула Герона
+
 a, b, c, d, f = input().split()
 a = float(a)
 b = float(b)
