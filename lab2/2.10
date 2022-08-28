@@ -1,0 +1,11 @@
+n =  int(input()) # 328
+s = n // 100 #3
+o = n % 10 # 8
+d = n // 10 # 32
+d2 = d % 10 # 2
+
+if o > d2 and o > s:
+    print(o)
+else:
+  s > o and s >d2
+  print(s)
